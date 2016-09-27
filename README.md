@@ -4,16 +4,28 @@
 执行`composer install`安装框架包
 
 ### 代码结构说明
-> app框架文件
+
+> app框架文件夹
+
 >> app/controllers 控制器文件
+
 >> app/models 模型文件
+
 >> app/views 视图文件
-> conf配置文件
-> public公用文件
+
+> conf配置文件夹
+>> conf/app.ini 配置文件
+
+> public公用文件夹
+
 >> public/index.php 入口文件
+
 >> public/css 样式文件
+
 >> public/js JavaScript文件
+
 >> public/img 图片文件
+>
 
 ### 服务器配置说明
 
