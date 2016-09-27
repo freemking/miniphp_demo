@@ -1,0 +1,5 @@
+{
+  "require": {
+    "luca/miniphp": "dev-master"
+  }
+}
