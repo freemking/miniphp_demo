@@ -7,7 +7,7 @@
  */
 use Mini\Model;
 
-class userModel extends Model{
+class UserModel extends Model{
 
     public function get(){
         echo 'model:get';

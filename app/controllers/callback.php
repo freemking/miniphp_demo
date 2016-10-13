@@ -7,7 +7,7 @@
  */
 use Mini\Controller;
 
-class callbackController extends Controller{
+class CallbackController extends Controller{
     public function indexAction(){
         echo 'callback';
     }

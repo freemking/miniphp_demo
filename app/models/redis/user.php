@@ -8,7 +8,7 @@
 
 use Mini\Redis;
 
-class userRedis extends Redis{
+class UserRedis extends Redis{
 
     public function getMoney(){
         return $this->redisReader()->get('event_rujia_money');

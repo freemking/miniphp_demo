@@ -7,7 +7,7 @@
  */
 use Mini\DB;
 
-class userDB extends DB{
+class UserDB extends DB{
 
     #获取用户信息 通过id
     public function getUserInfoById($id){

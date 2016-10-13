@@ -8,7 +8,7 @@
 use Mini\Controller;
 use Mini\Model;
 
-class indexController extends Controller{
+class IndexController extends Controller{
     public function indexAction(){
         echo 'index';
     }
