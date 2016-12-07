@@ -9,8 +9,11 @@ use Mini\Controller;
 
 class CallbackController extends Controller{
     public function indexAction(){
-        echo 'callback';
+        $this->redirect('/');
     }
 
+    public function ceaAction(){
+        echo htmlspecialchars($_GET['code']);
+    }
 
 }

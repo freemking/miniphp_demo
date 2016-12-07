@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 <?php
 /**
  * Created by PhpStorm.
@@ -13,12 +6,9 @@
  * Time: 22:11
  */
 
-echo 'i am views';
+echo 'i am viewsi am viewsi am viewsi am viewsi am viewsi am viewsi am views';
 
 print_r($name);
 print_r($age);
 ?>
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=58187734" charset="UTF-8"></script>
-</body>
-</html>
 

@@ -17,4 +17,8 @@ class UserRedis extends Redis{
     public function setMoney(){
         return $this->redisReader()->set('event_rujia_money',33);
     }
+
+    public function popLog(){
+        return $this->redisReader()->rPop('log_list');
+    }
 }
